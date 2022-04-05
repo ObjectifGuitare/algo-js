@@ -1,3 +1,10 @@
+//**
+ * 
+ * @param {*} w 
+ * @param {*} l 
+ * @returns 
+ */
+
 function calcSurface(w, l)
 {
     return w * l;
