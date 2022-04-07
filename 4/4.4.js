@@ -1,4 +1,4 @@
-let learners = ["Gilles", "Jamie", "Jason", "Jérémy", "Martin", "Rayane", "Rayhan", "Ricardo", "Steffanie", "Sébastien", "Tanguy", "Thibaud", "Zakaria"];
+let learners = ["Gilles", "Ozcan", "Jamie", "Jason", "Jérémy", "Martin", "Rayane", "Rayhan", "Ricardo", "Steffanie", "Sébastien", "Tanguy", "Thibaud", "Zakaria"];
 
 function randLength()
 {
@@ -36,4 +36,4 @@ function pickLearner(inputAr, n)
     return array;
 }
 
-console.log(pickLearner(learners, 12));
+console.log(pickLearner(learners, 11));

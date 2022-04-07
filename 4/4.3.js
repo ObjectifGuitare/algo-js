@@ -1,6 +1,7 @@
 /**
- * multiRand
- * @returns array
+ * a function named `multiRand(n)` that returns an array of `n` numbers between 1 and 10
+ * @param {integer} n the length of the array
+ * @returns returns an array of `n` numbers between 1 and 10.
  */
 
 function rand10()

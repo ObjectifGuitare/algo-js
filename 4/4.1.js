@@ -1,8 +1,8 @@
-//**
- * 
- * @param {*} w 
- * @param {*} l 
- * @returns 
+/**
+ * calculate the surface of a rectangle
+ * @param {integer} w - width of rectangle
+ * @param {integer} l - length of the rectangle
+ * @returns {integer} - multi of w and l
  */
 
 function calcSurface(w, l)
