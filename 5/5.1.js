@@ -1,11 +1,21 @@
 function askTvSerie()
 {
-    let favSerie = {};
-    favSerie.name = prompt("your favorite serie's name");
-    favSerie.prodyear = prompt("year of production");
+    const favSerie = {
+      cast: [],
+      name: prompt('Name of the serie?'),
+      year: prompt('Year of production?')
+    };
+    let isCastOver = false;
     
-    while(favSerie.cast)
-    favSerie.cast = prompt("Names of the cast members (there can be as much as you want, type end to stop your list)");
-
+    
+    while(!isCastOver)
+    {
+      const answer = prompt('Name of the cast member');
+  
+      if(answer === 'end' || answer == null)
+        isCastOver = true;
+      else
+        favSerie.cast.push(answer);
+    }
     return favSerie;
-}
+  }
